@@ -38,4 +38,4 @@ Explore and interact with an online simulation of this project using the followi
 
 ## License
 
-This project is currently not licensed. Feel free to use or modify it for personal or educational purposes. If you would like to add a license, consider choosing an open-source license that fits your needs.
+This project is currently not licensed. Feel free to use or modify it for personal or educational purposes.
