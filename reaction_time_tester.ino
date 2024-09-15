@@ -2,7 +2,7 @@
 #include <Wire.h>
 
 /*
-  ****************************************************************
+  ***************************************************************
   *                                                             *
   *  Author: Ammar                                             *
   *  Description:                                               *
@@ -71,6 +71,9 @@ byte octopus[8] = {
 };
 
 void setup() {
+  // Initialize serial communication
+  Serial.begin(9600);
+
   // Configure button pin as input
   pinMode(BUTTON_PIN, INPUT);
 
@@ -163,6 +166,7 @@ void loop() {
 
   // Wait for button press and record reaction time
   while(true){
+    Serial.println(btnPressed);
     if(btnPressed){
       reactionTime = millis();
       break;
