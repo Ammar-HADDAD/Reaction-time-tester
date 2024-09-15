@@ -19,7 +19,7 @@ Explore and interact with an online simulation of this project using the followi
 ## Repository Contents
 
 - `reaction_time_tester.ino`: The Arduino sketch file containing the game code.
-- `circuit_diagram.png`: Circuit diagram file for the project.
+- `circuit_diagram.PNG`: Circuit diagram file for the project.
 - `README.md`: This file with project description and instructions.
 
 ## Components
